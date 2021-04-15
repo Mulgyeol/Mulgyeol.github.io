@@ -2,27 +2,27 @@ module.exports = {
   title: `Mulgyeol.log`,
   description: `Blog posted about ...`,
   author: `Mulgyeol`,
-  introduction: `I explain with words and code. I explain with words and code. I explain with words and code.`,
-  siteUrl: `https://gatsby-starter-bee.netlify.com`, // Your blog site url
+  introduction: `https://daily-mulgyeol.tistory.com/ 에서 이전중`,
+  siteUrl: `https://mulgyeolog.today/`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
     github: `https://github.com/Mulgyeol`, // Your GitHub account
     medium: ``, // Your Medium account
-    facebook: ``, // Your Facebook account
+    facebook: `https://www.facebook.com/Mulgyeol.Jung/`, // Your Facebook account
     linkedin: ``, // Your LinkedIn account
-    instagram: ``, // Your Instagram account
+    instagram: `https://www.instagram.com/mulgyeol_/`, // Your Instagram account
   },
   icon: `content/assets/felog.png`, // Add your favicon
   keywords: [`blog`],
   comment: {
     disqusShortName: '', // Your disqus-short-name. check disqus.com.
-    utterances: 'JaeYeopHan/gatsby-starter-bee', // Your repository for archive comment
+    utterances: 'Mulgyeol/Mulgyeol.github.io', // Your repository for archive comment
   },
   configs: {
     countOfInitialPost: 10, // Config your initial count of post
   },
   sponsor: {
-    buyMeACoffeeId: 'jbee',
+    buyMeACoffeeId: '',
   },
   share: {
     facebookAppId: '', // Add facebookAppId for using facebook share feature v3.2
