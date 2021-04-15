@@ -6,11 +6,11 @@ module.exports = {
   siteUrl: `https://mulgyeolog.today/`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
-    github: `https://github.com/Mulgyeol`, // Your GitHub account
+    github: `Mulgyeol`, // Your GitHub account
     medium: ``, // Your Medium account
-    facebook: `https://www.facebook.com/Mulgyeol.Jung/`, // Your Facebook account
+    facebook: `Mulgyeol.Jung`, // Your Facebook account
     linkedin: ``, // Your LinkedIn account
-    instagram: `https://www.instagram.com/mulgyeol_/`, // Your Instagram account
+    instagram: `mulgyeol_`, // Your Instagram account
   },
   icon: `content/assets/felog.png`, // Add your favicon
   keywords: [`blog`],
