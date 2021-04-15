@@ -1,6 +1,6 @@
 module.exports = {
   title: `Mulgyeol.log`,
-  description: `Blog posted about ...`,
+  description: `Mulgyeol's Dev Note`,
   author: `Mulgyeol`,
   introduction: `https://daily-mulgyeol.tistory.com/ 에서 이전중`,
   siteUrl: `https://mulgyeolog.today/`, // Your blog site url
