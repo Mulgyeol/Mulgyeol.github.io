@@ -49,7 +49,65 @@ draft: false
 
 <div align="center">
   <비트연산자><br>
-<table align = "center" style="border-collapse: collapse; width: 58.3625%; height: 429px;" border="1" data-ke-style="style12"><tbody><tr style="height: 32px;"><td style="width: 17.1037%; height: 32px; text-align: center;">연산자</td><td style="width: 84.9288%; height: 32px; text-align: center;">연산자의 기능</td></tr><tr style="height: 39px;"><td style="width: 17.1037%; height: 39px; text-align: center;"><span style="color: #333333;">&amp;</span></td><td style="width: 84.9288%; height: 39px; text-align: center;"><span style="color: #333333;">비트단위로 AND 연산을 한다.</span><br><span style="color: #333333;">예) num1 &amp; num2</span></td></tr><tr style="height: 39px;"><td style="width: 17.1037%; height: 39px; text-align: center;">|</td><td style="width: 84.9288%; height: 39px; text-align: center;"><span style="color: #333333;">비트단위로 OR 연산을 한다.</span><br><span style="color: #333333;">예) num1 | num2</span></td></tr><tr style="height: 39px;"><td style="width: 17.1037%; height: 39px; text-align: center;">^</td><td style="width: 84.9288%; height: 39px; text-align: center;"><span style="color: #333333;">비트단위로 XOR 연산을 한다.</span><br><span style="color: #333333;">예) num1 ^ num2</span></td></tr><tr style="height: 58px;"><td style="width: 17.1037%; height: 37px; text-align: center;">~</td><td style="width: 84.9288%; height: 37px; text-align: center;"><span style="color: #333333;">다한 연산자로서 피연산자의 모든 비트를 반전시킨다.</span><br><span style="color: #333333;">예) ~num1</span></td></tr><tr style="height: 97px;"><td style="width: 17.1037%; height: 84px; text-align: center;">&lt;&lt;</td><td style="width: 84.9288%; height: 84px; text-align: center;"><span style="color: #333333;">피연산자의 비트 열을 왼쪽으로 이동시킨다.</span><br><span style="color: #333333;">예) num1 &lt;&lt; 2</span><br><span style="color: #333333;">비는 오른쪽 비트를 0으로 채운다</span></td></tr><tr style="height: 97px;"><td style="width: 17.1037%; height: 81px; text-align: center;">&gt;&gt;</td><td style="width: 84.9288%; height: 81px; text-align: center;"><span style="color: #333333;">피연산자의 비트 열을 오른쪽으로 이동시킨다.</span><br><span style="color: #333333;">예) num1 &gt;&gt; 2</span><br><span style="color: #333333;">비는 왼쪽 비트를 부호 비트로 채운다.</span></td></tr><tr style="height: 78px;"><td style="width: 17.1037%; height: 78px; text-align: center;">&gt;&gt;&gt;</td><td style="width: 84.9288%; height: 78px; text-align: center;"><span style="color: #333333;">피연산자의 비트 열을 오른쪽으로 이동시킨다.</span><br><span style="color: #333333;">예) num1 &gt;&gt;&gt; 2</span><br><span style="color: #333333;">비는 왼쪽 비트를 0으로 채운다.</span></td></tr></tbody></table>
+<table align = "center" style="border-collapse: collapse;" border="1">
+<tbody>
+<tr>
+<td style="width: 20%; text-align: center;">연산자</td>
+<td style="width: 80%; text-align: center;">연산자의 기능</td>
+</tr>
+<tr>
+<td style="width: 20%; text-align: center;"><span style="color: #333333;">&amp;</span></td>
+<td style="width: 80%; text-align: center;"><span style="color: #333333;">비트단위로 AND 연산을 한다.</span><br>
+<span style="color: #333333;">예) num1 &amp; num2</span>
+</td>
+</tr>
+<tr>
+<td style="width: 20%; text-align: center;">|</td>
+<td style="width: 80%; text-align: center;">
+<span style="color: #333333;">비트단위로 OR 연산을 한다.</span><br>
+<span style="color: #333333;">예) num1 | num2</span>
+</td>
+</tr>
+<tr>
+<td style="width: 20%; text-align: center;">^</td>
+<td style="width: 80%; text-align: center;">
+<span style="color: #333333;">비트단위로 XOR 연산을 한다.</span><br>
+<span style="color: #333333;">예) num1 ^ num2</span>
+</td>
+</tr>
+<tr>
+<td style="width: 20%; text-align: center;">~</td>
+<td style="width: 80%; text-align: center;">
+<span style="color: #333333;">다한 연산자로서 피연산자의 모든 비트를 반전시킨다.</span><br>
+<span style="color: #333333;">예) ~num1</span>
+</td>
+</tr>
+<tr>
+<td style="width: 20%; text-align: center;">&lt;&lt;</td>
+<td style="width: 80%; text-align: center;">
+<span style="color: #333333;">피연산자의 비트 열을 왼쪽으로 이동시킨다.</span><br>
+<span style="color: #333333;">예) num1 &lt;&lt; 2</span><br>
+<span style="color: #333333;">비는 오른쪽 비트를 0으로 채운다</span>
+</td>
+</tr>
+<tr>
+<td style="width: 20%; text-align: center;">&gt;&gt;</td>
+<td style="width: 80%; text-align: center;">
+<span style="color: #333333;">피연산자의 비트 열을 오른쪽으로 이동시킨다.</span><br>
+<span style="color: #333333;">예) num1 &gt;&gt; 2</span><br>
+<span style="color: #333333;">비는 왼쪽 비트를 부호 비트로 채운다.</span>
+</td>
+</tr>
+<tr>
+<td style="width: 20%; text-align: center;">&gt;&gt;&gt;</td>
+<td style="width: 80%; text-align: center;">
+<span style="color: #333333;">피연산자의 비트 열을 오른쪽으로 이동시킨다.</span><br>
+<span style="color: #333333;">예) num1 &gt;&gt;&gt; 2</span><br>
+<span style="color: #333333;">비는 왼쪽 비트를 0으로 채운다.</span>
+</td>
+</tr>
+</tbody>
+</table>
 </div>
 
 이 비트 연산자는 공부할 때 한 번쯤 들어보긴 했지만,
