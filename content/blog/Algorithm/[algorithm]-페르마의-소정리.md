@@ -1,5 +1,5 @@
 ---
-title: [Algorithm] 페르마의 소정리
+title: '[Algorithm] 페르마의 소정리'
 date: 2021-04-19 20:04:28
 category: algorithm
 thumbnail: { thumbnailSrc }
