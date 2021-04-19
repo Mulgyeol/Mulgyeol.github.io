@@ -136,3 +136,94 @@ public class DijkstraTest {
 
 }
 ```
+
+---
+
+# Dijkstra 알고리즘 문제 풀이
+
+## [백준 - 1753] 최단경로
+
+- [[백준 - 1753] 최단경로](https://www.acmicpc.net/problem/1753)
+
+### 디버깅
+
+- 한 정점에서 연결된 다른 정점까지의 경로가 2개 이상인 점을 고려해야 했다. (사실 시작점에 연결된 곳을 따로 처리해주지 않았다면, 상관 없었다. / 아래 코드는 따로 처리해 주지 않은 코드이다.)
+- step2에서 기준으로 다뤘던 노드 중에 가장 가까운 정점을 그 다음 step1에서 고르는 것이 아니라, 시작점에서 방문처리하지 않은 가장 가까운 곳을 골라야 했다.
+
+### Java Code
+
+```Java
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.StringTokenizer;
+
+public class acmicpc_1753_ShortestPath {
+
+	static int INF = Integer.MAX_VALUE;
+
+	public static void main(String[] args) throws IOException{
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+		int V = Integer.parseInt(st.nextToken()); // 정점의 갯수
+		int E = Integer.parseInt(st.nextToken()); // 간선의 갯수
+		int K = Integer.parseInt(br.readLine()); // 시작점
+		ArrayList<int[]>[] adjList = new ArrayList[V+1];
+
+		for(int i=1; i<=V; i++) {
+			adjList[i] = new ArrayList<>();
+		}
+
+		for(int i=0; i<E; i++) {
+			st = new StringTokenizer(br.readLine(), " ");
+			int u = Integer.parseInt(st.nextToken()); //출발
+			int v = Integer.parseInt(st.nextToken()); //도착
+			int w = Integer.parseInt(st.nextToken()); //가중치
+
+			adjList[u].add(new int[] {v,w});
+		}
+
+		int[] distance = new int[V+1];
+		boolean[] visited = new boolean[V+1];
+		Arrays.fill(distance, INF);
+
+		distance[K] = 0;
+
+		for(int i=1; i<=V; i++) {
+			int min = INF;
+			int next = 0;
+			for(int j=1; j<=V; j++) {
+				if(!visited[j] && distance[j] < min) {
+					min = distance[j];
+					next = j;
+				}
+			}
+
+			visited[next] = true;
+			if(next == 0) break;
+
+			for(int[] temp : adjList[next]) {
+				if(!visited[temp[0]] && distance[temp[0]] > distance[next] + temp[1]) {
+					distance[temp[0]] = distance[next] + temp[1];
+				}
+			}
+
+		}
+
+		StringBuilder sb = new StringBuilder();
+		for(int i=1; i<=V; i++) {
+			if(distance[i] != INF) sb.append(distance[i]).append("\n");
+			else sb.append("INF").append("\n");
+		}
+
+
+		System.out.print(sb);
+
+	}
+
+}
+
+
+```
