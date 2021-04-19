@@ -1,7 +1,7 @@
 ---
 title: '[Algorithm] 페르마의 소정리'
 date: 2021-04-19 20:04:28
-category: algorithm
+category: 'Algorithm'
 thumbnail: { thumbnailSrc }
 draft: false
 ---
