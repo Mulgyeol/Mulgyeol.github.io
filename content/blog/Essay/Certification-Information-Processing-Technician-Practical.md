@@ -2,7 +2,6 @@
 title: '[정보처리기사 실기] D-11'
 date: 2020-04-14 23:59:59
 category: 'Essay'
-draft: false
 ---
 
 ![img](./images/Thumbnail.png)
