@@ -1,6 +1,6 @@
 ---
 title: '[백준 - 1520] 내리막길 - Java'
-date: 2020-04-21 14:00:00
+date: 2020-04-21 14:02:00
 category: 'Algorithm Study'
 ---
 
