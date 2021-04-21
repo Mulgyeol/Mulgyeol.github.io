@@ -12,6 +12,7 @@ export default class HTML extends React.Component {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no, minimum-scale=1, maximum-scale=1, user-scalable=0, viewport-fit=cover"
           />
+          <meta name="naver-site-verification" content="100b4c1636bd320863b33f7f18352c217c1368f2" />
           {this.props.headComponents}
         </head>
         <body {...this.props.bodyAttributes}>
