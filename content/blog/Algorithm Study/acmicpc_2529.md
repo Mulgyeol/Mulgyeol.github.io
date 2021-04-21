@@ -2,6 +2,7 @@
 title: '[백준 - 2529] 부등호 - Java'
 date: 2020-04-21 14:01:00
 category: 'Algorithm Study'
+draft: false
 ---
 
 ![img](./images/BAEKJOON.png)

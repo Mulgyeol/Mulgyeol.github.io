@@ -2,6 +2,7 @@
 title: '[백준 - 19237] 어른상어 - Java'
 date: 2020-04-21 14:03:00
 category: 'Algorithm Study'
+draft: false
 ---
 
 ![img](./images/BAEKJOON.png)
