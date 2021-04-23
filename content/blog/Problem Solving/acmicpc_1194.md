@@ -1,5 +1,5 @@
 ---
-title: `[백준 1194] 달이 차오른다, 가자. - Java`
+title: '[백준 1194] 달이 차오른다, 가자. - Java'
 date: 2021-04-23 14:04:57
 category: Problem Solving
 thumbnail: { thumbnailSrc }
