@@ -1,7 +1,7 @@
 ---
 title: '[백준 - 2667] 단지번호붙이기 - Java'
 date: 2020-04-21 14:00:00
-category: 'Algorithm Study'
+category: 'Problem Solving'
 draft: false
 ---
 
