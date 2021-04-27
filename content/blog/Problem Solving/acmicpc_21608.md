@@ -193,6 +193,7 @@ for(int i=1; i<=N2; i++) {
 
 테케는 맞는데, 제출하면 indexOutOfRange가 떴다.
 classroom에 학생들이 제 자리로 들어갔는지 잘 확인하기 위해, 돌려보니
+
 ![](https://images.velog.io/images/mulgyeol/post/ffa6dd2f-107e-4ec9-9ac9-384e38e00162/image.png)
 
 이렇게 나와야하는데,
