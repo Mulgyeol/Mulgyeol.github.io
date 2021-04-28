@@ -1,7 +1,7 @@
 ---
 title: '[백준 - 21608] 상어 초등학교 - Java'
 date: 2021-04-27 22:04:54
-category: Problem solving
+category: Problem Solving
 thumbnail: { thumbnailSrc }
 draft: false
 ---
