@@ -1,7 +1,7 @@
 ---
 title: '[Spring] AOP(Aspect-Oriented Programming)'
 date: 2021-04-28 18:04:58
-category: spring
+category: Spring
 thumbnail: { thumbnailSrc }
 draft: false
 ---

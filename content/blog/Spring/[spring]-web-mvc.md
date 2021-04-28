@@ -1,7 +1,7 @@
 ---
 title: [Spring] Web MVC
 date: 2021-04-28 18:04:29
-category: spring
+category: Spring
 thumbnail: { thumbnailSrc }
 draft: false
 ---
