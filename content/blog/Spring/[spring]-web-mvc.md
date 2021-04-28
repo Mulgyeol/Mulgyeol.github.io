@@ -1,5 +1,5 @@
 ---
-title: [Spring] Web MVC
+title: '[Spring] Web MVC'
 date: 2021-04-28 18:04:29
 category: Spring
 thumbnail: { thumbnailSrc }
