@@ -1,7 +1,7 @@
 ---
 title: '[Data Structure] 우선순위 큐 활용하기 - Java'
 date: 2021-05-01 22:05:97
-category: Data Structure
+category: Dev Basic
 thumbnail: { thumbnailSrc }
 draft: false
 ---

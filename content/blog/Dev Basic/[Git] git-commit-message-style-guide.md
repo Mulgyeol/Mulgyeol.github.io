@@ -1,7 +1,7 @@
 ---
 title: 'Git Commit Message Style Guide'
 date: 2021-05-01 22:05:72
-category: Git
+category: Dev Basic
 thumbnail: { thumbnailSrc }
 draft: false
 ---

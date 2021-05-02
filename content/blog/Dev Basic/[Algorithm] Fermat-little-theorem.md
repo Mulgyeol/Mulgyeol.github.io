@@ -1,11 +1,11 @@
 ---
 title: '[Algorithm] 페르마의 소정리'
 date: 2021-04-19 20:04:28
-category: 'Algorithm'
+category: 'Dev Basic'
 draft: false
 ---
 
-![img](./images/Thumbnail.png)
+![img](./images/Algorithm.png)
 
 # 페르마의 소정리, Fermat’s little theorem
 
