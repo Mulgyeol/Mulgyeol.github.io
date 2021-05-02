@@ -1,7 +1,7 @@
 ---
 title: '[Algorithm] 순열(Permutation)을 생성하는 방법 3 - 비트마스킹(bit masking)'
 date: 2021-04-16 16:04:47
-category: 'Dev Baisc'
+category: 'Dev Basic'
 draft: false
 ---
 
