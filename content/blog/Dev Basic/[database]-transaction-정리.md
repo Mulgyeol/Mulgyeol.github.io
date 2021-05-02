@@ -6,7 +6,7 @@ thumbnail: { thumbnailSrc }
 draft: false
 ---
 
-![img](./images/Database.png)
+![img](./images/Database.jpg)
 
 # [Database] Transaction 정리
 
