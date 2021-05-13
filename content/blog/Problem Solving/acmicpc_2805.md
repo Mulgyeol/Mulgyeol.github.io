@@ -1,7 +1,7 @@
 ---
 title: '[백준 2805] 나무자르기'
 date: 2021-05-14 00:05:90
-category: problem solving
+category: Problem Solving
 thumbnail: { thumbnailSrc }
 draft: false
 ---
