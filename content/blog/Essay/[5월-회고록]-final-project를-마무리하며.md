@@ -34,7 +34,7 @@ Final Project를 마지막으로 SSAFY 1학기가 마무리 됐습니다. Java�
 
 ### 1. Vue의 동작 순서 제어하기
 
-이번 프로젝트에서 가장 까다로웠던 부분 중 하나는 Vue의 라이프 사이클을 이해하고 응답받은 데이터를 처리하는 부분이었습니다. Vuex를 적용하고, axios로 받은 데이터를 가지고 사용자에게 뿌려줄 때, Vue의 동작 순서를 제대로 이해할 필요가 있었습니다. Kakao Map API는 왜 mouted에서 script를 작성해 주어야 했는지, computed에서 getMapper로 store와 연결한 데이터들이 왜 화면에 보여지지 않는지, 표를 그리려고 작성한 태그에서 호출한 함수가 create에서 연결해준 함수보다 왜 먼저 호출 되는지 등등.. 프로젝트 진행 중 마주한 문제들은 동작 순서를 온전히 이해하기 전까지는 해결하기가 어려웠습니다.
+이번 프로젝트에서 가장 까다로웠던 부분 중 하나는 Vue의 라이프 사이클을 이해하고 응답받은 데이터를 처리하는 부분이었습니다. Vuex를 적용하고, axios로 받은 데이터를 가지고 사용자에게 뿌려줄 때, Vue의 동작 순서를 제대로 이해할 필요가 있었습니다. Kakao Map API는 왜 moutned에서 script를 작성해 주어야 했는지, computed에서 getMapper로 store와 연결한 데이터들이 왜 화면에 보여지지 않는지, 표를 그리려고 작성한 태그에서 호출한 함수가 create에서 연결해준 함수보다 왜 먼저 호출 되는지 등등.. 프로젝트 진행 중 마주한 문제들은 동작 순서를 온전히 이해하기 전까지는 해결하기가 어려웠습니다.
 
 ![출처 : https://kr.vuejs.org/v2/guide/instance.html, Vue LifeCycle](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbFeMo3%2Fbtq53uvBD1B%2FjvTy8uU2FSK7nPBv7IJQd0%2Fimg.png)
 
