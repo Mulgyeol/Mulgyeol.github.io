@@ -37,7 +37,7 @@ Velog는 마크다운 문법으로 글을 작성해 포스팅 하지만, 코드 
 
 ### 1. Vuepress Blog 만들기
 
-멋사 운영진으로 활동하던 작년에, 다른 운영진분께서 그날 가르쳐줄 내용을 페이지를 제작해서 배포해주셨던 것이 생각나서, 그 페이지는 어떻게 만든건지 궁금해졌습니다. `Vuepress github pages`로 검색을 하다가, [**limdongjin**](https://github.com/limdongjin)님의 [Tutorial :: Vuepress로 기술문서 빠르게 만들어보자!](https://limdongjin.github.io/vuejs/vuepress/#table-of-contents) 포스팅을 보게 되었습니다. 설명이 잘되어있어 그대로 진행하면 빠르게 블로그를 만들 수 있습니다. 기능이 정상적으로 동작하지 않을 때는 limdongjin님의 TIL 레포지토리의 코드를 참고 하기도 했습니다.
+멋사 운영진으로 활동하던 작년에, 다른 운영진분께서 그날 알려줄 내용을 페이지를 제작해서 배포해주셨습니다. 우연히 다른 공부할 내용을 검색해서 찾아보다가 `TIL 블로그`를 같은 스타일로 제작한 곳을 발견했습니다. 조금 더 알아보니 Vuepress로 만들어진 형식이었고, Vue를 배우고 프로젝트를 한 적이 있으니 만들어볼 수 있지 않을까? 싶어 만들어보기로 했습니다. `Vuepress github pages`로 검색을 하다가, [**limdongjin**](https://github.com/limdongjin)님의 [Tutorial :: Vuepress로 기술문서 빠르게 만들어보자!](https://limdongjin.github.io/vuejs/vuepress/#table-of-contents) 포스팅을 보게 되었습니다. 설명이 잘되어있어 그대로 진행하면 빠르게 블로그를 만들 수 있습니다. 기능이 정상적으로 동작하지 않을 때는 limdongjin님의 TIL 레포지토리의 코드를 참고 하기도 했습니다.
 
 #### Build Error
 
@@ -48,7 +48,7 @@ Velog는 마크다운 문법으로 글을 작성해 포스팅 하지만, 코드 
 
 ### 2. GitHub Actions로 Vuepress 배포하기
 
-Vuepress로 만든 다른 TIL 블로그를 찾아보다가, [Yurim님의 TIL](http://milooy.github.io/TIL)을 발견했습니다. 마침 포스팅을 할때 마다 빌드스크립트를 직접 실행시켜야 하나싶어서 불편하다고 생각하던 참에, [Yurim님의 블로그](https://milooy.wordpress.com/2020/07/28/github-actions%EB%A1%9C-vuepress-%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0/)에 포스트를 푸쉬할 때마다 deploy script가 돌도록 설정하는 방법을 공유해 주신 것이 있어 도전해보게 되었습니다. 과정 중 필요한 ACCESS TOKEN 생성은 [Github Actions에서 사용할 Token만들기](https://zeddios.tistory.com/1047)를 참고했습니다.
+Vuepress로 만든 다른 TIL 블로그를 찾아보다가, [Yurim님의 TIL](http://milooy.github.io/TIL)을 발견했습니다. 마침 포스팅을 할때 마다 빌드스크립트를 직접 실행시키는 것이 불편하다고 생각하던 참에, [Yurim님의 블로그](https://milooy.wordpress.com/2020/07/28/github-actions%EB%A1%9C-vuepress-%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0/)에 포스트를 푸쉬할 때마다 deploy script가 돌도록 설정하는 방법을 공유해 주신 것이 있어 도전해보게 되었습니다. 과정 중 필요한 ACCESS TOKEN 생성은 [Github Actions에서 사용할 Token만들기](https://zeddios.tistory.com/1047)를 참고했습니다.
 
 ![](https://images.velog.io/images/mulgyeol/post/58b52c27-f04d-42c9-90de-c0887017f6f9/image.png)
 
