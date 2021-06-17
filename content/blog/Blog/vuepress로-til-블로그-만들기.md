@@ -8,8 +8,6 @@ draft: false
 
 ![img](./images/TIL.png)
 
-# Vuepress로 TIL 블로그 만들기
-
 ## 들어가며
 
 ### 블로그에 관하여
