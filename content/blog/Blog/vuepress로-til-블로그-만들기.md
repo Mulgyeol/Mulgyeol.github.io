@@ -12,7 +12,7 @@ draft: false
 
 ## 들어가며
 
-### 블로그에 관해
+### 블로그에 관하여
 
 배운 내용을 정리하고자 시작한 블로그가 [Tistory](https://daily-mulgyeol.tistory.com/), [Velog](https://velog.io/@mulgyeol)를 거쳐 지금 이 [gatsby 블로그](https://mulgyeolog.today)에 정착하게 되었습니다.
 
@@ -50,7 +50,7 @@ Velog는 마크다운 문법으로 글을 작성해 포스팅 하지만, 코드 
 
 ### 2. GitHub Actions로 Vuepress 배포하기
 
-Vuepress로 만든 다른 TIL 블로그를 찾아보다가, [Yurim님의 TIL](http://milooy.github.io/TIL)을 발견했습니다. 마침, '포스팅을 할때 마다 빌드스크립트를 직접 실행시켜야 하나?'싶어 불편하다고 생각하던 참에, [Yurim님의 블로그](https://milooy.wordpress.com/2020/07/28/github-actions%EB%A1%9C-vuepress-%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0/)에 포스트를 푸쉬할 때마다 deploy script가 돌도록 설정하는 방법을 공유해 주신 것이 있어 도전해보게 되었습니다. 과정 중 필요한 ACCESS TOKEN 생성은 [Github Actions에서 사용할 Token만들기](https://zeddios.tistory.com/1047)를 참고했습니다.
+Vuepress로 만든 다른 TIL 블로그를 찾아보다가, [Yurim님의 TIL](http://milooy.github.io/TIL)을 발견했습니다. 마침 포스팅을 할때 마다 빌드스크립트를 직접 실행시켜야 하나싶어서 불편하다고 생각하던 참에, [Yurim님의 블로그](https://milooy.wordpress.com/2020/07/28/github-actions%EB%A1%9C-vuepress-%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0/)에 포스트를 푸쉬할 때마다 deploy script가 돌도록 설정하는 방법을 공유해 주신 것이 있어 도전해보게 되었습니다. 과정 중 필요한 ACCESS TOKEN 생성은 [Github Actions에서 사용할 Token만들기](https://zeddios.tistory.com/1047)를 참고했습니다.
 
 ![](https://images.velog.io/images/mulgyeol/post/58b52c27-f04d-42c9-90de-c0887017f6f9/image.png)
 
