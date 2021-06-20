@@ -65,3 +65,5 @@ Vuepress로 만든 다른 TIL 블로그를 찾아보다가, [Yurim님의 TIL](ht
 ![](https://images.velog.io/images/mulgyeol/post/2ec6548a-d31d-43eb-a4a6-fcc4e24bebfa/image.png)
 
 방법을 바꿔 새롭게 시작한 알고리즘 스터디에서 개념 정리한 내용들을 일단 포스팅 했습니다. 그동안 공부한 내용을 다 정리해 놓을지는 고민이 되지만, 앞으로 학습한 내용들은 꾸준히 정리해 두려고 합니다.
+
+[TIL 블로그 구경가기](https://mulgyeol.github.io/TIL)
