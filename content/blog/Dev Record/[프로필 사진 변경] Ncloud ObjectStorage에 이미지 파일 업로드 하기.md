@@ -5,8 +5,6 @@ category: 'Dev Record'
 draft: false
 ---
 
-# [프로필 사진 변경] Ncloud ObjectStorage에 이미지 파일 업로드 하기
-
 ## 프로필 이미지 변경 서비스 소개
 
 [노가리하우스](https://nogarihouse.nemne-dev) 에서는 사용자가 자신의 프로필 사진을 변경할 수 있는 기능을 제공합니다.
@@ -216,10 +214,8 @@ export default multer({ storage });
     - key : 파일의 이름을 지정합니다.
         - cb : 이름을 지정할 때 사용될 callback 함수 입니다.
         - 무결성 보장을 위해 현재시간, UUID, 기존파일의 확장자를 이용해 파일명을 지정합니다.
+        - ![Untitled](./images/Ncloud-Object-Storage/7.png)
         
-        ![Untitled](./images/Ncloud-Object-Storage/7.png)
-        
-    
 
  **API Router에 연결하기**
 
