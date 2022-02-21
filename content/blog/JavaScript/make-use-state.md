@@ -1,6 +1,14 @@
-# vanillaJS 상태관리(1) - useState를 구현해보자.
+---
+title: 'vanillaJS 상태관리(1) - useState를 구현해보자'
+date: 2022-02-22 00:01:26
+category: JavaScript
+thumbnail: { thumbnailSrc }
+draft: false
+---
 
-Created: February 11, 2022 11:15 PM
+![img](.//images/make-use-state/thumbnail.jpeg)
+
+# vanillaJS 상태관리(1) - useState를 구현해보자.
 
 ## 글을 작성하는 이유
 
