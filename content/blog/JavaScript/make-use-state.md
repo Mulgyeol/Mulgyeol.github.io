@@ -190,7 +190,7 @@ export default function useState(initState, component, $target) {
 
 state 변수에 초기 값을 할당하고, setState를 통해 값을 변경하면서 componet함수를 실행시켰다. 과연 제대로 동작할까?
 
-![useState01.gif](./images/make-use-state/useState01%201.gif)
+![useState01.gif](./images/make-use-state/useState03.gif)
 
 렌더링 되는 것은 확인할 수 있지만, 증가된 값이 화면에 보이지 않는다. 어떤 문제가 있을까?
 
@@ -221,7 +221,7 @@ export default function useState(initState, component, $target) {
 
 이제는 제대로 동작할까?
 
-![useState02.gif](./images/make-use-state/useState02%201.gif)
+![useState02.gif](./images/make-use-state/useState04.gif)
 
 성공이다. 하지만, 치명적인 문제가 있다. 한 컴포넌트 내에서 여러개의 상태를 관리할 때는 어떨까?
 
@@ -275,7 +275,7 @@ export default function Click(target) {
 
 실행결과는 다음과 같다.
 
-![useState03.gif](./images/make-use-state/useState03.gif)
+![useState03.gif](./images/make-use-state/useState05.gif)
 
 처음 배경색을 변경하는 버튼을 눌렀을 때는 잘 작동하는가 싶더니, increase 버튼을 누르면 사고가 발생한다. 어떤 일이 발생했는지는 상상이 가능할 것이다.
 
@@ -315,7 +315,7 @@ setState의 동작시 _index를 0으로 초기화 시켜주는 이유는 컴포�
 
 결과를 확인해보자.
 
-![useState04.gif](./images/make-use-state/useState04.gif)
+![useState04.gif](./images/make-use-state/useState06.gif)
 
 만족스럽게 동작하는 것을 확인할 수 있다.
 
@@ -519,6 +519,6 @@ export default function useState(initState, component, $target) {
 }
 ```
 
-![useState05.gif](./images/make-use-state/useState05.gif)
+![useState05.gif](./images/make-use-state/useState07.gif)
 
 잘 작동하는 것을 확인할 수 있다.
