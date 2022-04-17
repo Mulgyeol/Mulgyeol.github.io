@@ -3,7 +3,7 @@ module.exports = {
   description: `Mulgyeol's Dev Note`,
   author: `Mulgyeol`,
   introduction: `hodgepodge development diary`,
-  siteUrl: `https://mulgyeolog.today/`, // Your blog site url
+  siteUrl: `https://mulgyeolog.site/`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
     github: `Mulgyeol`, // Your GitHub account

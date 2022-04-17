@@ -96,8 +96,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://mulgyeolog.today/',
-        sitemap: 'https://mulgyeolog.today/sitemap.xml',
+        host: 'https://mulgyeolog.site/',
+        sitemap: 'https://mulgyeolog.site/sitemap.xml',
         policy: [
           {
             userAgent: '*',

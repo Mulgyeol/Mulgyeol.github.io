@@ -12,7 +12,7 @@ draft: false
 
 ### 블로그에 관하여
 
-배운 내용을 정리하고자 시작한 블로그가 [Tistory](https://daily-mulgyeol.tistory.com/), [Velog](https://velog.io/@mulgyeol)를 거쳐 지금 이 [gatsby 블로그](https://mulgyeolog.today)에 정착하게 되었습니다.
+배운 내용을 정리하고자 시작한 블로그가 [Tistory](https://daily-mulgyeol.tistory.com/), [Velog](https://velog.io/@mulgyeol)를 거쳐 지금 이 [gatsby 블로그](https://mulgyeolog.site)에 정착하게 되었습니다.
 
 이전 두 개의 플랫폼을 이용해보고 느꼈던 불만들을 정리해 보자면
 Tistory는 마크다운 문법으로 문서를 작성하기에 적합하지 않았고,
